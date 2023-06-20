@@ -1,0 +1,338 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+  
+/* Estilos para el header */
+header {
+    background-color: #A80059;
+    padding: 10px;
+    overflow: hidden;  
+}
+  
+.header-left {
+    float: left;
+    margin-right: 20px; 
+}
+  
+.header-center {
+    border: 10px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+
+
+  
+.header-right {
+    float: right;
+}
+  
+.header-left img {
+    width: 50px;
+}
+  
+.header-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.header-center ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.header-center ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+  
+.header-right h1 {
+    font-size: 24px;
+    color: #FFF;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+  
+
+/* Estilos para el video de portada */
+.portada-video {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+  
+.portada-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.portada-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+   
+}
+
+.portada-text h2 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+  
+.portada-text p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+  
+  
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #A80059;
+    color: white;
+    font-size: 16px;
+}
+
+footer h2 { 
+    color: #777;
+    font-size: 14px;
+}
+
+  
+/* pagina nosotros.html */
+  
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+}
+
+#map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* pagina destacados.html */
+
+
+
+
+
+/* pagina como-comprar.html */
+
+/* Estilos para separar el header y el main */
+.separator {
+    height: 2px;
+    background-color: rgb(247, 242, 242);
+  }
+  
+
+
+main h1 { 
+    margin: 0;
+    font-size: 24px;
+    background-color: #A80059;
+    color: white;
+    padding: 50px;
+    text-align: center;  
+  }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+thead tr {
+   
+    text-align: center;
+}
+
+  
+thead th {
+    background-color: #A80059;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+  
+tbody td {
+    padding: 10px;
+    border-bottom: 2px solid #A80059;
+}
+  
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+.separatorGaleria {
+    height: 20px;
+    background-color: #A80059;
+  }
+
+
+  
+p h3 {
+    padding-top: 90px;
+    margin-bottom: 50px;
+   
+    font-size: 70px;
+  
+    color:white;
+    text-align: center; 
+    letter-spacing: 2px; 
+  }  
+  
+
+/* galeria */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mostrar 3 imágenes por fila */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    background-color: #A80059;
+   margin: 10px;
+}
+
+
+
+.mobile-desktop{
+    background-color: #1d1b1c;
+}@media(max-width:576px){
+    .mobile-desktop {     
+        display: none; /* Oculta la tabla en pantallas más pequeñas */
+       
+      }
+     
+      
+      
+}
+  .galeria img {
+   
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajustar el tamaño de la imagen para llenar el contenedor */
+    border-radius: 8px; /* Agregar esquinas redondeadas a las imágenes */
+  }
+
+
+  
+/* como comprar*/
+
+section {
+    margin: 0;
+    padding: 20px;
+    background-color: #A80059;
+
+}
+  
+
+  
+section  h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;  
+  }
+  
+section  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color:rgb(20, 20, 20);
+    margin-bottom: 15px;
+    text-align: center;  
+  }
+  
+
+/* pagina contacto*/
+
+
+
+
+main section  {
+    background-color: #A80059;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
+    display: grid;
+    gap: 10px;
+   
+  }
+    
+  .contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    height: 100px;
+  }
+  
+
+  .contact-form button {
+    width: 90%;
+    background-color: #443b40;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block; 
+}
+
+  
