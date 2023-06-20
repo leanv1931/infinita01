@@ -228,7 +228,7 @@ p h3 {
 
 .mobile-desktop{
     background-color: #1d1b1c;
-}@media(max-width:576px){
+}@media(max-width:720px){
     .mobile-desktop {     
         display: none; /* Oculta la tabla en pantallas más pequeñas */
        
