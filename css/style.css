@@ -230,14 +230,12 @@ p h3 {
     background-color: #1d1b1c;
 }@media(max-width:720px){
     .mobile-desktop {     
-        display: none; /* Oculta la tabla en pantallas más pequeñas */
+        display: none; /* Oculta contenido pantallas más pequeñas */
        
-      }
-     
-      
-      
+    }     
 }
-  .galeria img {
+
+.galeria img {
    
     width: 100%;
     height: auto;
